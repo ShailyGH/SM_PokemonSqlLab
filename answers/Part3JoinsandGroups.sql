@@ -1,6 +1,6 @@
 --1. What is each pokemon's primary type?
 
-SELECT pokemons.name, types.name FROM pokemons, types WHERE pokemons.primary_type = types.id;
+SELECT pokemons.primary_type, types.id, pokemons.name, types.name FROM pokemons, types WHERE pokemons.primary_type = types.id;
 
 --2. What is Rufflet's secondary type?
 

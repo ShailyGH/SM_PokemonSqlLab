@@ -1,5 +1,5 @@
 --1. What are all the types of pokemon that a pokemon can have?
-select * from tyupes;
+select * from types;
 
 --2. What is the name of the pokemon with id 45?
 select name from pokemons where id = 45;
